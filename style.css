@@ -46,6 +46,13 @@ body {
     .nav-link:hover::after {
       width: 100%;
     }
+
+    .description{
+      font-size: 18px;
+      font-weight: 300;
+      color: white;
+      padding-top: 10px;
+    }
     
     .animate-float {
       animation: float 6s ease-in-out infinite;
