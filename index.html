@@ -18,28 +18,28 @@
 
 <body class="h-full">
   <div id="app-wrapper" class="h-full w-full overflow-auto"
-    style="background: #0a0a0a; font-family: 'Space Grotesk', sans-serif;"><!-- Floating decorative elements -->
+    style="background: #fefefe; font-family: 'Space Grotesk', sans-serif;"><!-- Floating decorative elements -->
     <div class="fixed inset-0 pointer-events-none overflow-hidden">
-      <div class="absolute top-20 left-10 w-72 h-72 bg-pink-500/10 rounded-full blur-3xl animate-pulse-slow"></div>
-      <div class="absolute bottom-20 right-10 w-96 h-96 bg-pink-600/10 rounded-full blur-3xl animate-pulse-slow"
+      <div class="absolute top-20 left-10 w-72 h-72 bg-color rounded-full blur-3xl animate-pulse-slow"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-color rounded-full blur-3xl animate-pulse-slow"
         style="animation-delay: 2s;"></div>
       <div
-        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-pink-500/5 rounded-full blur-3xl">
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-color rounded-full blur-3xl">
       </div>
     </div>
     <!-- Navigation -->
-    <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/50 border-b border-pink-500/10">
+    <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl sub-bg-color/50 border-b border-color">
       <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"><a href="#hero"
           class="text-2xl font-bold" style="font-family: 'Syne', sans-serif;"> <span class="gradient-text">MA</span>
         </a>
         <div class="flex gap-8"><a href="#about"
-            class="nav-link text-gray-400 hover:text-pink-400 transition-colors text-sm uppercase tracking-wider">About</a>
+            class="nav-link sub-text-color hover:text-color-400 transition-colors text-sm uppercase tracking-wider">About</a>
           <a href="#work"
-            class="nav-link text-gray-400 hover:text-pink-400 transition-colors text-sm uppercase tracking-wider">Work</a>
+            class="nav-link sub-text-color hover:text-color-400 transition-colors text-sm uppercase tracking-wider">Work</a>
           <a href="#skills"
-            class="nav-link text-gray-400 hover:text-pink-400 transition-colors text-sm uppercase tracking-wider">Skills</a>
+            class="nav-link sub-text-color hover:text-color-400 transition-colors text-sm uppercase tracking-wider">Skills</a>
           <a href="#contact"
-            class="nav-link text-gray-400 hover:text-pink-400 transition-colors text-sm uppercase tracking-wider">Contact</a>
+            class="nav-link sub-text-color hover:text-color-400 transition-colors text-sm uppercase tracking-wider">Contact</a>
         </div>
       </div>
     </nav>
@@ -47,26 +47,26 @@
     <section id="hero" class="min-h-screen flex items-center justify-center relative grid-pattern">
       <div class="max-w-6xl mx-auto px-6 py-32 text-center relative z-10">
         <div class="fade-in stagger-1">
-          <p class="text-pink-400 text-sm uppercase tracking-[0.3em] mb-6">Welcome to my portfolio</p>
+          <p class="text-color-400 text-sm uppercase tracking-[0.3em] mb-6">Welcome to my portfolio</p>
         </div>
-        <h1 id="hero-name" class="fade-in stagger-2 text-6xl md:text-8xl font-bold mb-6 text-white"
+        <h1 id="hero-name" class="fade-in stagger-2 text-6xl md:text-8xl font-bold mb-6 text-color"
           style="font-family: 'Syne', sans-serif;">Maliha Azizi</h1>
-        <h2 id="hero-title" class="fade-in stagger-3 text-2xl md:text-3xl text-gray-400 mb-8">Graphic Designer &amp;
+        <h2 id="hero-title" class="fade-in stagger-3 text-2xl md:text-3xl sub-text-color mb-8">Graphic Designer &amp;
           Motion & Animation Designer</h2>
-        <p id="hero-tagline" class="fade-in stagger-4 text-lg text-gray-500 max-w-xl mx-auto mb-12">Visual storytelling
+        <p id="hero-tagline" class="fade-in stagger-4 text-lg text-secondary max-w-xl mx-auto mb-12">Visual storytelling
           through illustration, branding, and motion design.</p>
         <div class="fade-in stagger-4"><a href="#work"
-            class="magnetic-btn inline-flex items-center gap-3 bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-full font-medium hover:from-pink-600 hover:to-pink-700 transition-all glow-pink">
+            class="magnetic-btn inline-flex items-center gap-3 bg-gradient btn-text-color px-8 py-4 rounded-full font-medium transition-all glow-color">
             View My Work
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg></a>
         </div>
         <!-- Scroll indicator -->
-        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500"><span
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-secondary"><span
             class="text-xs uppercase tracking-widest">Scroll</span>
-          <div class="w-6 h-10 border-2 border-gray-600 rounded-full flex justify-center pt-2">
-            <div class="w-1.5 h-3 bg-pink-500 rounded-full animate-bounce"></div>
+          <div class="w-6 h-10 border-2 border-color rounded-full flex justify-center pt-2">
+            <div class="w-1.5 h-3 scroll-icon-color rounded-full animate-bounce"></div>
           </div>
         </div>
       </div>
@@ -76,15 +76,15 @@
       <div class="max-w-6xl mx-auto px-6">
         <div class="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p class="text-pink-400 text-sm uppercase tracking-[0.3em] mb-4">About Me</p>
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8" style="font-family: 'Syne', sans-serif;">
+            <p class="text-color-400 text-sm uppercase tracking-[0.3em] mb-4">About Me</p>
+            <h2 class="text-4xl md:text-5xl font-bold text-color mb-8" style="font-family: 'Syne', sans-serif;">
               Passionate about <span class="gradient-text">visual</span> storytelling and illustration!</h2>
-            <p id="about-text" class="text-gray-400 text-lg leading-relaxed mb-2">I’m a Graphic Designer and Motion &
+            <p id="about-text" class="sub-text-color text-lg leading-relaxed mb-2">I’m a Graphic Designer and Motion &
               Animation Designer currently studying at CodeToInspire. My work focuses on illustration, branding, poster
               design, and visual storytelling.</p>
-            <p id="about-text" class="text-gray-400 text-lg leading-relaxed mb-2">I enjoy turning ideas into meaningful
+            <p id="about-text" class="sub-text-color text-lg leading-relaxed mb-2">I enjoy turning ideas into meaningful
               visuals and exploring how motion and animation can bring designs to life.</p>
-            <p id="about-text" class="text-gray-400 text-lg leading-relaxed mb-2">I work mainly with Adobe Photoshop and
+            <p id="about-text" class="sub-text-color text-lg leading-relaxed mb-2">I work mainly with Adobe Photoshop and
               Adobe Illustrator, and I’m currently learning After Effects to expand my motion design skills. I’m eager
               to be part of creative projects, collaborate with teams, and grow as a professional designer.</p>
           </div>
@@ -100,11 +100,11 @@
     <section id="work" class="py-32 relative">
       <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-16">
-          <p class="text-pink-400 text-sm uppercase tracking-[0.3em] mb-4">Portfolio</p>
-          <h2 class="text-4xl md:text-5xl font-bold text-white mb-4" style="font-family: 'Syne', sans-serif;">Featured
+          <p class="text-color-400 text-sm uppercase tracking-[0.3em] mb-4">Portfolio</p>
+          <h2 class="text-4xl md:text-5xl font-bold text-color mb-4" style="font-family: 'Syne', sans-serif;">Featured
             <span class="gradient-text">Projects</span>
           </h2><button id="view-all-projects-btn"
-            class="mt-4 text-pink-400 hover:text-pink-300 transition-colors flex items-center gap-2 mx-auto group">
+            class="mt-4 text-color-400 hover transition-colors flex items-center gap-2 mx-auto group">
             <span class="text-sm uppercase tracking-wider">View All Projects</span>
             <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor"
               viewbox="0 0 24 24">
@@ -113,23 +113,23 @@
         </div>
         <div class="grid md:grid-cols-2 gap-8"><!-- Project 1 -->
           <div
-            class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+            class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
             <div
-              class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+              class="aspect-video flex items-center justify-center relative overflow-hidden">
               <img src="./assets/branding/celune watch brand set_.jpg">
               <div class="absolute inset-0"></div>
             </div>
             <div class="p-8">
               <div class="flex gap-2 mb-4"><span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Branding </span> <span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Visual Identity</span>
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Branding </span> <span
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Visual Identity</span>
               </div>
-              <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Céluné Luxury
+              <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Céluné Luxury
                 Watch Brand</h3>
-              <p class="text-gray-400 mb-6">Céluné is a luxury watch brand identity project featuring logo design,
+              <p class="sub-text-color mb-6">Céluné is a luxury watch brand identity project featuring logo design,
                 brochure, poster, visit card, invoice, and billboard. The visual identity focuses on elegance,
                 precision, and timeless design, using a refined blue and gold color palette.</p><button
-                class="view-project-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                class="view-project-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                 data-project="1"> View Project
                 <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                   stroke="currentColor" viewbox="0 0 24 24">
@@ -138,8 +138,8 @@
             </div>
           </div><!-- Project 2 -->
           <div
-            class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
-            <div class="aspect-video bg-black relative overflow-hidden video-project-container">
+            class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
+            <div class="aspect-video sub-bg-color relative overflow-hidden video-project-container">
               <video class="w-full h-full object-cover project-video" loop muted playsinline data-video-id="video-1"
                 onloadedmetadata="this.muted = true;">
                 <source src="./assets/motion/Maliha_Azizi_project.mp4" type="video/mp4" loading="lazy"> Your browser
@@ -148,7 +148,7 @@
               <div
                 class="video-controls absolute bottom-4 left-4 right-4 flex items-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                 <button
-                  class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                  class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                   <svg class="play-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -159,7 +159,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg></button> <button
-                  class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                  class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                   <svg class="mute-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
@@ -172,19 +172,19 @@
                   </svg></button>
               </div>
               <div
-                class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-40 pointer-events-none">
+                class="absolute inset-0 opacity-40 pointer-events-none">
               </div>
             </div>
             <div class="p-8">
               <div class="flex gap-2 mb-4"><span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Motion Design</span> <span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Icon Animation</span>
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Motion Design</span> <span
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Icon Animation</span>
               </div>
-              <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Icon Motion</h3>
-              <p class="text-gray-400 mb-6">Icon Motion is a motion design project animating interface icons with smooth
+              <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Icon Motion</h3>
+              <p class="sub-text-color mb-6">Icon Motion is a motion design project animating interface icons with smooth
                 transitions and engaging micro-interactions. Each movement emphasizes timing, rhythm, and clarity for a
                 polished and intuitive user experience.</p><button
-                class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                 data-project="2"> View Project
                 <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                   stroke="currentColor" viewbox="0 0 24 24">
@@ -193,23 +193,23 @@
             </div>
           </div><!-- Project 3 -->
           <div
-            class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+            class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
             <div
-              class="aspect-video bg-gradient-to-br from-fuchsia-500/20 to-pink-600/20 flex items-center justify-center relative overflow-hidden">
+              class="aspect-video sub-bg-gradient flex items-center justify-center relative overflow-hidden">
               <img src="./assets/Illustration/Maliha Azizi illustration-01.jpg">
               <div class="absolute inset-0"></div>
             </div>
             <div class="p-8">
               <div class="flex gap-2 mb-4"><span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span> <span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Interior Design</span>
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span> <span
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Interior Design</span>
               </div>
-              <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Digital
+              <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Digital
                 Environment</h3>
-              <p class="text-gray-400 mb-6">Rainy Evening Workspace is a digital environment illustration exploring
+              <p class="sub-text-color mb-6">Rainy Evening Workspace is a digital environment illustration exploring
                 lighting, atmosphere, and spatial composition. The artwork focuses on warm and cool light contrast,
                 realistic shading, and detailed interior design to create a calm and immersive scene.</p><button
-                class="view-project-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                class="view-project-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                 data-project="3"> View Project
                 <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                   stroke="currentColor" viewbox="0 0 24 24">
@@ -218,24 +218,24 @@
             </div>
           </div><!-- Project 4 -->
           <div
-            class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+            class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
             <div
-              class="aspect-video bg-gradient-to-br from-rose-500/20 to-pink-500/20 flex items-center justify-center relative overflow-hidden">
+              class="aspect-video sub-bg-gradient flex items-center justify-center relative overflow-hidden">
               <img src="./assets/Illustration/Maliha_Azizi_(project 06).jpg">
               <div class="absolute inset-0"></div>
             </div>
             <div class="p-8">
               <div class="flex gap-2 mb-4"><span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span> <span
-                  class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Digital Art</span>
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span> <span
+                  class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Digital Art</span>
               </div>
-              <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Digital
+              <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Digital
                 Illustration</h3>
-              <p class="text-gray-400 mb-6">This project is a conceptual illustration that visually represents the
+              <p class="sub-text-color mb-6">This project is a conceptual illustration that visually represents the
                 emotional and imaginative journey of reading through character design and environmental storytelling. It
                 combines soft color palettes and symbolic elements to create a calm and engaging visual narrative.</p>
               <button
-                class="view-project-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                class="view-project-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                 data-project="4"> View Project
                 <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                   stroke="currentColor" viewbox="0 0 24 24">
@@ -250,90 +250,90 @@
     <section id="skills" class="py-32 relative">
       <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-16">
-          <p class="text-pink-400 text-sm uppercase tracking-[0.3em] mb-4">Expertise</p>
-          <h2 class="text-4xl md:text-5xl font-bold text-white" style="font-family: 'Syne', sans-serif;">Skills &amp;
+          <p class="text-color-400 text-sm uppercase tracking-[0.3em] mb-4">Expertise</p>
+          <h2 class="text-4xl md:text-5xl font-bold text-color" style="font-family: 'Syne', sans-serif;">Skills &amp;
             <span class="gradient-text">Technologies</span>
           </h2>
         </div>
         <div class="grid md:grid-cols-2 gap-12">
           <div class="space-y-8">
             <div>
-              <div class="flex justify-between mb-2"><span class="text-white font-medium">Illustration</span> <span
-                  class="text-pink-400">95%</span>
+              <div class="flex justify-between mb-2"><span class="text-color font-medium">Illustration</span> <span
+                  class="text-color-400">95%</span>
               </div>
-              <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                <div class="skill-bar h-full bg-gradient-to-r from-pink-500 to-pink-600 rounded-full"
+              <div class="h-2 bar-bg-color rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-gradient rounded-full"
                   style="width: 95%"></div>
               </div>
             </div>
             <div>
-              <div class="flex justify-between mb-2"><span class="text-white font-medium">Branding</span> <span
-                  class="text-pink-400">90%</span>
+              <div class="flex justify-between mb-2"><span class="text-color font-medium">Branding</span> <span
+                  class="text-color-400">90%</span>
               </div>
-              <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                <div class="skill-bar h-full bg-gradient-to-r from-pink-500 to-pink-600 rounded-full"
+              <div class="h-2 bar-bg-color rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-gradient rounded-full"
                   style="width: 90%"></div>
               </div>
             </div>
             <div>
-              <div class="flex justify-between mb-2"><span class="text-white font-medium">Poster Design</span> <span
-                  class="text-pink-400">85%</span>
+              <div class="flex justify-between mb-2"><span class="text-color font-medium">Poster Design</span> <span
+                  class="text-color-400">85%</span>
               </div>
-              <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                <div class="skill-bar h-full bg-gradient-to-r from-pink-500 to-pink-600 rounded-full"
+              <div class="h-2 bar-bg-color rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-gradient rounded-full"
                   style="width: 85%"></div>
               </div>
             </div>
             <div>
-              <div class="flex justify-between mb-2"><span class="text-white font-medium">Layout & Composition</span>
-                <span class="text-pink-400">80%</span>
+              <div class="flex justify-between mb-2"><span class="text-color font-medium">Layout & Composition</span>
+                <span class="text-color-400">80%</span>
               </div>
-              <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                <div class="skill-bar h-full bg-gradient-to-r from-pink-500 to-pink-600 rounded-full"
+              <div class="h-2 bar-bg-color rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-gradient rounded-full"
                   style="width: 80%"></div>
               </div>
             </div>
           </div>
           <div class="grid grid-cols-3 gap-4">
             <div
-              class="card-hover bg-gray-900/50 border border-pink-500/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center">
-              <svg class="w-10 h-10 mb-3 text-pink-400" viewbox="0 0 24 24" fill="currentColor">
+              class="card-hover tech-bg-color backdrop-blur-2xl border-color border rounded-2xl p-6 flex flex-col items-center justify-center text-center">
+              <svg class="w-10 h-10 mb-3 text-color-400" viewbox="0 0 24 24" fill="currentColor">
                 <rect width="24" height="24" rx="4" fill="currentColor" opacity="0.2" /> <text x="12" y="17"
                   font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="currentColor"
                   text-anchor="middle">
                   Ae
                 </text>
-              </svg><span class="text-white text-sm">Adobe Photoshop</span>
+              </svg><span class="text-color text-sm">Adobe Photoshop</span>
             </div>
             <div
-              class="card-hover bg-gray-900/50 border border-pink-500/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center">
-              <svg class="w-10 h-10 mb-3 text-pink-400" viewbox="0 0 24 24" fill="currentColor">
+              class="card-hover tech-bg-color backdrop-blur-2xl border-color border rounded-2xl p-6 flex flex-col items-center justify-center text-center">
+              <svg class="w-10 h-10 mb-3 text-color-400" viewbox="0 0 24 24" fill="currentColor">
                 <rect width="24" height="24" rx="4" fill="currentColor" opacity="0.2" /> <text x="12" y="17"
                   font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="currentColor"
                   text-anchor="middle">
                   Ai
                 </text>
-              </svg><span class="text-white text-sm">Adobe Illustrator</span>
+              </svg><span class="text-color text-sm">Adobe Illustrator</span>
             </div>
             <div
-              class="card-hover bg-gray-900/50 border border-pink-500/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center">
-              <svg class="w-10 h-10 mb-3 text-pink-400" viewbox="0 0 24 24" fill="currentColor">
+              class="card-hover tech-bg-color backdrop-blur-2xl border-color border rounded-2xl p-6 flex flex-col items-center justify-center text-center">
+              <svg class="w-10 h-10 mb-3 text-color-400" viewbox="0 0 24 24" fill="currentColor">
                 <rect width="24" height="24" rx="4" fill="currentColor" opacity="0.2" /> <text x="12" y="17"
                   font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="currentColor"
                   text-anchor="middle">
                   Cd
                 </text>
-              </svg><span class="text-white text-sm">CorelDRAW</span>
+              </svg><span class="text-color text-sm">CorelDRAW</span>
             </div>
             <div
-              class="card-hover bg-gray-900/50 border border-pink-500/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center">
-              <svg class="w-10 h-10 mb-3 text-pink-400" viewbox="0 0 24 24" fill="currentColor">
+              class="card-hover tech-bg-color backdrop-blur-2xl border-color border rounded-2xl p-6 flex flex-col items-center justify-center text-center">
+              <svg class="w-10 h-10 mb-3 text-color-400" viewbox="0 0 24 24" fill="currentColor">
                 <rect width="24" height="24" rx="4" fill="currentColor" opacity="0.2" /> <text x="12" y="17"
                   font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="currentColor"
                   text-anchor="middle">
                   Ae
                 </text>
-              </svg><span class="text-white text-sm">Adobe After Effects (Learning)</span>
+              </svg><span class="text-color text-sm">Adobe After Effects (Learning)</span>
             </div>
           </div>
         </div>
@@ -342,31 +342,31 @@
     <!-- Contact Section -->
     <section id="contact" class="py-32 relative">
       <div class="max-w-4xl mx-auto px-6 text-center">
-        <p class="text-pink-400 text-sm uppercase tracking-[0.3em] mb-4">Get In Touch</p>
-        <h2 class="text-4xl md:text-5xl font-bold text-white mb-8" style="font-family: 'Syne', sans-serif;">Let's create
+        <p class="text-color-400 text-sm uppercase tracking-[0.3em] mb-4">Get In Touch</p>
+        <h2 class="text-4xl md:text-5xl font-bold text-color mb-8" style="font-family: 'Syne', sans-serif;">Let's create
           something <span class="gradient-text">amazing</span> together</h2>
-        <p class="text-gray-400 text-lg mb-12 max-w-xl mx-auto">Have a project in mind? I'd love to hear about it. Drop
+        <p class="sub-text-color text-lg mb-12 max-w-xl mx-auto">Have a project in mind? I'd love to hear about it. Drop
           me a message and let's discuss how we can work together.</p>
-        <div class="bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl p-8 md:p-12 border border-pink-500/10">
+        <div class="card-bg-gradient rounded-3xl p-8 md:p-12 border border-color">
           <form id="contact-form" class="space-y-6">
             <div class="grid md:grid-cols-2 gap-6">
-              <div><label for="name" class="block text-left text-gray-400 text-sm mb-2">Name</label> <input type="text"
+              <div><label for="name" class="block text-left sub-text-color text-sm mb-2">Name</label> <input type="text"
                   id="name"
-                  class="w-full bg-gray-800/50 border border-pink-500/20 rounded-xl px-6 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-pink-500 transition-colors"
+                  class="w-full bar-bg-color/50 border border-color/20 rounded-xl px-6 py-4 text-color placeholder-gray-500 focus:outline-none focus:border-color transition-colors"
                   placeholder="Your name" required>
               </div>
-              <div><label for="email" class="block text-left text-gray-400 text-sm mb-2">Email</label> <input
+              <div><label for="email" class="block text-left sub-text-color text-sm mb-2">Email</label> <input
                   type="email" id="email"
-                  class="w-full bg-gray-800/50 border border-pink-500/20 rounded-xl px-6 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-pink-500 transition-colors"
+                  class="w-full bar-bg-color/50 border border-color/20 rounded-xl px-6 py-4 text-color placeholder-gray-500 focus:outline-none focus:border-color transition-colors"
                   placeholder="your@email.com" required>
               </div>
             </div>
-            <div><label for="message" class="block text-left text-gray-400 text-sm mb-2">Message</label> <textarea
+            <div><label for="message" class="block text-left sub-text-color text-sm mb-2">Message</label> <textarea
                 id="message" rows="5"
-                class="w-full bg-gray-800/50 border border-pink-500/20 rounded-xl px-6 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-pink-500 transition-colors resize-none"
+                class="w-full bar-bg-color/50 border border-color/20 rounded-xl px-6 py-4 text-color placeholder-gray-500 focus:outline-none focus:border-color transition-colors resize-none"
                 placeholder="Tell me about your project..." required></textarea>
             </div><button type="submit"
-              class="magnetic-btn w-full md:w-auto bg-gradient-to-r from-pink-500 to-pink-600 text-white px-12 py-4 rounded-full font-medium hover:from-pink-600 hover:to-pink-700 transition-all glow-pink flex items-center justify-center gap-3 mx-auto">
+              class="magnetic-btn w-full md:w-auto bg-gradient btn-text-color px-12 py-4 rounded-full font-medium transition-all glow-color flex items-center justify-center gap-3 mx-auto">
               Send Message
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -374,50 +374,50 @@
               </svg></button>
           </form>
           <div id="form-success"
-            class="hidden mt-6 p-4 bg-pink-500/10 border border-pink-500/20 rounded-xl text-pink-400">
+            class="hidden mt-6 p-4 bg-color border border-color/20 rounded-xl text-color-400">
             Thanks for reaching out! I'll get back to you soon.
           </div>
         </div>
         <div class="mt-16 flex justify-center gap-6">
           <a href="https://x.com/Malihaazizi95"
-            class="w-12 h-12 bg-gray-900/50 border border-pink-500/10 rounded-full flex items-center justify-center text-gray-400 hover:text-pink-400 hover:border-pink-500/30 transition-all">
+            class="w-12 h-12 tech-bg-color border border-color rounded-full flex items-center justify-center icon-color hover:text-color-400 hover:border-color/30 transition-all">
             <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
               <path
                 d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
             </svg></a>
           <a href="https://t.me/malihaazizi"
-            class="w-12 h-12 bg-gray-900/50 border border-pink-500/10 rounded-full flex items-center justify-center text-gray-400 hover:text-pink-400 hover:border-pink-500/30 transition-all">
+            class="w-12 h-12 tech-bg-color border border-color rounded-full flex items-center justify-center icon-color hover:text-color-400 hover:border-color/30 transition-all">
             <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
               <path
                 d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
             </svg></a>
           <a href="#"
-            class="w-12 h-12 bg-gray-900/50 border border-pink-500/10 rounded-full flex items-center justify-center text-gray-400 hover:text-pink-400 hover:border-pink-500/30 transition-all">
+            class="w-12 h-12 tech-bg-color border border-color rounded-full flex items-center justify-center icon-color hover:text-color-400 hover:border-color/30 transition-all">
             <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
               <path
                 d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
             </svg></a>
           <a href="https://www.instagram.com/malihaazizi7?igsh=YWo2ZWVuOTNjdXBm"
-            class="w-12 h-12 bg-gray-900/50 border border-pink-500/10 rounded-full flex items-center justify-center text-gray-400 hover:text-pink-400 hover:border-pink-500/30 transition-all">
+            class="w-12 h-12 tech-bg-color border border-color rounded-full flex items-center justify-center icon-color hover:text-color-400 hover:border-color/30 transition-all">
             <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
               <path
                 d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
             </svg></a>
         </div>
-        <p id="contact-email" class="mt-8 text-gray-500">Or email me directly at <a
+        <p id="contact-email" class="mt-8 text-secondary">Or email me directly at <a
             href="mailto:malihaazizi17@gmail.com"
-            class="text-pink-400 hover:text-pink-300 transition-colors">malihaazizi17@gmail.com</a></p>
+            class="text-color-400 hover transition-colors">malihaazizi17@gmail.com</a></p>
       </div>
     </section>
     <!-- Footer -->
-    <footer class="py-8 border-t border-pink-500/10">
+    <footer class="py-8 border-t border-color">
       <div class="max-w-6xl mx-auto px-6 text-center">
-        <p class="text-gray-500 text-sm flex items-center justify-center gap-2">© 2026 Maliha Azizi. Crafted with
-          <svg class="w-4 h-4 text-pink-400" fill="currentColor" viewbox="0 0 24 24">
+        <p class="text-secondary text-sm flex items-center justify-center gap-2">© 2026 Maliha Azizi. Crafted with
+          <svg class="w-4 h-4 text-color-400" fill="currentColor" viewbox="0 0 24 24">
             <path
               d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
           </svg> and lots of
-          <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <svg class="w-4 h-4 text-color-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
           </svg>
@@ -427,28 +427,34 @@
   </div>
   <!-- All Projects Page -->
   <div id="all-projects-page" class="fixed inset-0 z-50 hidden">
-    <div class="h-full w-full overflow-auto" style="background: #0a0a0a;"><!-- Navigation -->
-      <nav class="sticky top-0 z-50 backdrop-blur-xl bg-black/80 border-b border-pink-500/10">
+    <div class="h-full w-full overflow-auto" style="background: #fefefe;">
+      <div class="fixed inset-0 pointer-events-none overflow-hidden">
+      <div class="absolute top-20 left-10 w-72 h-72 bg-color rounded-full blur-3xl animate-pulse-slow"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-color rounded-full blur-3xl animate-pulse-slow"
+        style="animation-delay: 2s;"></div>
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-color rounded-full blur-3xl">
+      </div>
+    </div>
+      <!-- Navigation -->
+      <nav class="sticky top-0 z-50 backdrop-blur-xl sub-bg-color/80 border-b border-color">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"><button id="back-from-all-projects"
-            class="flex items-center gap-2 text-gray-400 hover:text-pink-400 transition-colors group">
+            class="flex items-center gap-2 sub-text-color hover:text-color-400 transition-colors group">
             <svg class="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor"
               viewbox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg><span class="text-sm uppercase tracking-wider">Back to Portfolio</span> </button>
-          <div class="text-pink-400 text-sm uppercase tracking-[0.3em]">
+          <div class="text-color-400 text-sm uppercase tracking-[0.3em]">
             All Projects
           </div>
         </div>
       </nav><!-- Projects Hero -->
       <section class="pt-20 pb-16 relative grid-pattern">
-        <div class="absolute inset-0 pointer-events-none overflow-hidden">
-          <div class="absolute top-20 right-10 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl animate-pulse-slow"></div>
-        </div>
         <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
-          <p class="text-pink-400 text-sm uppercase tracking-[0.3em] mb-4">My Work</p>
-          <h1 class="text-5xl md:text-7xl font-bold text-white mb-6" style="font-family: 'Syne', sans-serif;">All <span
+          <p class="text-color-400 text-sm uppercase tracking-[0.3em] mb-4">My Work</p>
+          <h1 class="text-5xl md:text-7xl font-bold text-color mb-6" style="font-family: 'Syne', sans-serif;">All <span
               class="gradient-text">Projects</span></h1>
-          <p class="text-xl text-gray-400 max-w-2xl mx-auto">Explore my complete portfolio of creative work and digital
+          <p class="text-xl sub-text-color max-w-2xl mx-auto">Explore my complete portfolio of creative work and digital
             experiences</p>
         </div>
       </section><!-- Projects Grid -->
@@ -457,23 +463,23 @@
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Project 1 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/branding/celune watch brand set_.jpg" alt="pic1">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Branding</span>
-                  <span class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Visual Identity</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Branding</span>
+                  <span class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Visual Identity</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Céluné Luxury
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Céluné Luxury
                   Watch Brand</h3>
-                <p class="text-gray-400 mb-6">Céluné is a luxury watch brand identity project featuring logo design,
+                <p class="sub-text-color mb-6">Céluné is a luxury watch brand identity project featuring logo design,
                   brochure, poster, business card, invoice, and billboard. The visual identity focuses on elegance,
                   precision, and timeless design, using a refined blue and gold color palette.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="1"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -484,8 +490,8 @@
             </div>
             <!-- Project 2 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
-              <div class="aspect-video bg-black relative overflow-hidden video-project-container">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
+              <div class="aspect-video sub-bg-color relative overflow-hidden video-project-container">
                 <video class="w-full h-full object-cover project-video" loop muted playsinline data-video-id="video-1"
                   onloadedmetadata="this.muted = true;">
                   <source src="./assets/motion/Maliha_Azizi_project.mp4" type="video/mp4" loading="lazy"> Your
@@ -494,7 +500,7 @@
                 <div
                   class="video-controls absolute bottom-4 left-4 right-4 flex items-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                   <button
-                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="play-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -505,7 +511,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></button> <button
-                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="mute-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
@@ -518,19 +524,19 @@
                     </svg></button>
                 </div>
                 <div
-                  class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-40 pointer-events-none">
+                  class="absolute inset-0 pointer-events-none">
                 </div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Motion Design</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Icon Animation</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Motion Design</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Icon Animation</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Icon Motion</h3>
-                <p class="text-gray-400 mb-6">Icon Motion is a motion design project animating interface icons with
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Icon Motion</h3>
+                <p class="sub-text-color mb-6">Icon Motion is a motion design project animating interface icons with
                   smooth transitions and engaging micro-interactions. Each movement emphasizes timing, rhythm, and
                   clarity for a polished and intuitive user experience.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="2"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -540,23 +546,23 @@
               </div>
             </div><!-- Project 3 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-fuchsia-500/20 to-pink-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video sub-bg-gradient flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha Azizi illustration-01.jpg" alt="pic2">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Interior Design</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Interior Design</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Digital
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Digital
                   Workspace</h3>
-                <p class="text-gray-400 mb-6">Rainy Evening Workspace is a digital environment illustration exploring
+                <p class="sub-text-color mb-6">Rainy Evening Workspace is a digital environment illustration exploring
                   lighting, atmosphere, and spatial composition. The artwork focuses on warm and cool light contrast,
                   realistic shading, and detailed interior design to create a calm and immersive scene.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="3"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -566,24 +572,24 @@
               </div>
             </div><!-- Project 4 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-rose-500/20 to-pink-500/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video sub-bg-gradient flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha_Azizi_(project 06).jpg" alt="pic3">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Digital Art</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Digital Art</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Digital
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Digital
                   Illustration</h3>
-                <p class="text-gray-400 mb-6">This project is a conceptual illustration that visually represents the
+                <p class="sub-text-color mb-6">This project is a conceptual illustration that visually represents the
                   emotional and imaginative journey of reading through character design and environmental storytelling.
                   It combines soft color palettes and symbolic elements to create a calm and engaging visual narrative.
                 </p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="4"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -593,8 +599,8 @@
               </div>
             </div><!-- Project 5 - Video Project -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
-              <div class="aspect-video bg-black relative overflow-hidden video-project-container">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
+              <div class="aspect-video sub-bg-color relative overflow-hidden video-project-container">
                 <video class="w-full h-full object-cover project-video" loop muted playsinline data-video-id="video-1"
                   onloadedmetadata="this.muted = true;">
                   <source src="./assets/motion/final christmas.mp4" type="video/mp4" loading="lazy"> Your browser does
@@ -603,7 +609,7 @@
                 <div
                   class="video-controls absolute bottom-4 left-4 right-4 flex items-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                   <button
-                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="play-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -614,7 +620,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></button> <button
-                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="mute-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
@@ -627,17 +633,17 @@
                     </svg></button>
                 </div>
                 <div
-                  class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-40 pointer-events-none">
+                  class="absolute inset-0 opacity-40 pointer-events-none">
                 </div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Motion Design</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Holiday Video</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Motion Design</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Holiday Video</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Festive Christmas Motion</h3>
-                <p class="text-gray-400 mb-6">A festive motion graphic video showcasing smooth animation and clean Christmas-themed visuals, created as a personal portfolio project.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Festive Christmas Motion</h3>
+                <p class="sub-text-color mb-6">A festive motion graphic video showcasing smooth animation and clean Christmas-themed visuals, created as a personal portfolio project.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="5"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -647,7 +653,7 @@
               </div>
             </div><!-- Project 6 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
                 class="aspect-video bg-gradient-to-br from-violet-500/20 to-purple-500/20 flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha_Azizi_(project-02).jpg" alt="pic4">
@@ -655,13 +661,13 @@
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4">
-                  <span class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span>
-                    <span class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Cultural Design</span>
+                  <span class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span>
+                    <span class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Cultural Design</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Ramadan
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Ramadan
                   Illustration</h3>
-                <p class="text-gray-400 mb-6">A Ramadan-themed illustration inspired by Islamic architecture, using soft colors and watercolor textures to create a calm and spiritual atmosphere.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <p class="sub-text-color mb-6">A Ramadan-themed illustration inspired by Islamic architecture, using soft colors and watercolor textures to create a calm and spiritual atmosphere.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="6"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -672,8 +678,8 @@
             </div>
             <!---Project 7-->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
-              <div class="aspect-video bg-black relative overflow-hidden video-project-container">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
+              <div class="aspect-video sub-bg-color relative overflow-hidden video-project-container">
                 <video class="w-full h-full object-cover project-video" loop muted playsinline data-video-id="video-1"
                   onloadedmetadata="this.muted = true;">
                   <source src="./assets/motion/maliha love yourself album.mp4" type="video/mp4" loading="lazy"> Your
@@ -682,7 +688,7 @@
                 <div
                   class="video-controls absolute bottom-4 left-4 right-4 flex items-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                   <button
-                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="play-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -693,7 +699,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></button> <button
-                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="mute-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
@@ -706,17 +712,17 @@
                     </svg></button>
                 </div>
                 <div
-                  class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-40 pointer-events-none">
+                  class="absolute inset-0 opacity-40 pointer-events-none">
                 </div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Motion Design</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Animation</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Motion Design</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Animation</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Album Visual Motion</h3>
-                <p class="text-gray-400 mb-6">A minimalist album-inspired motion graphic showcasing smooth animation and clean visual storytelling.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Album Visual Motion</h3>
+                <p class="sub-text-color mb-6">A minimalist album-inspired motion graphic showcasing smooth animation and clean visual storytelling.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="7"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -727,20 +733,20 @@
             </div>
             <!-- Project 8 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha_Azizi_(project 01-).jpg" alt="pic5">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Character Design</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Character Design</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Afghan-Inspired Character</h3>
-                <p class="text-gray-400 mb-6">A chibi-style character redesign inspired by Afghan traditional clothing, focusing on cultural adaptation and expressive character design.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Afghan-Inspired Character</h3>
+                <p class="sub-text-color mb-6">A chibi-style character redesign inspired by Afghan traditional clothing, focusing on cultural adaptation and expressive character design.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="8"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -751,20 +757,20 @@
             </div>
             <!-- Project 9 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/infography.jpg" alt="pic6">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Infographic Design</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Visual Communication</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Infographic Design</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Visual Communication</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Eco-Friendly Infographic</h3>
-                <p class="text-gray-400 mb-6">An eco-friendly themed infographic designed to present sustainability tips using icons, clean layout, and a green color palette.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Eco-Friendly Infographic</h3>
+                <p class="sub-text-color mb-6">An eco-friendly themed infographic designed to present sustainability tips using icons, clean layout, and a green color palette.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="9"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -775,20 +781,20 @@
             </div>
             <!-- Project 10 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-start justify-center relative overflow-hidden">
+                class="aspect-video flex items-start justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/final project painting.jpg" alt="pic7">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Digital Art</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Digital Art</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Digital Illustration</h3>
-                <p class="text-gray-400 mb-6">A digital illustration focused on visual storytelling and atmosphere, exploring calm and emotional connection with nature through character design and environment.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Digital Illustration</h3>
+                <p class="sub-text-color mb-6">A digital illustration focused on visual storytelling and atmosphere, exploring calm and emotional connection with nature through character design and environment.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="10"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -799,8 +805,8 @@
             </div>
             <!---Project 11- video project-->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
-              <div class="aspect-video bg-black relative overflow-hidden video-project-container">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
+              <div class="aspect-video sub-bg-color relative overflow-hidden video-project-container">
                 <video class="w-full h-full object-cover project-video" loop muted playsinline data-video-id="video-1"
                   onloadedmetadata="this.muted = true;">
                   <source src="./assets/motion/mine.mp4" type="video/mp4" loading="lazy"> Your
@@ -809,7 +815,7 @@
                 <div
                   class="video-controls absolute bottom-4 left-4 right-4 flex items-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                   <button
-                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="play-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -820,7 +826,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></button> <button
-                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="mute-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
@@ -833,17 +839,17 @@
                     </svg></button>
                 </div>
                 <div
-                  class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-40 pointer-events-none">
+                  class="absolute inset-0 opacity-40 pointer-events-none">
                 </div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Motion Design</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Animation</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Motion Design</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Animation</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Minimal Motion Intro</h3>
-                <p class="text-gray-400 mb-6">A modern motion graphic intro showcasing clean visuals and smooth animation. Created as a personal project to highlight motion design and editing skills.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Minimal Motion Intro</h3>
+                <p class="sub-text-color mb-6">A modern motion graphic intro showcasing clean visuals and smooth animation. Created as a personal project to highlight motion design and editing skills.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="11"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -854,20 +860,20 @@
             </div>
             <!-- Project 12 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha_Azizi_(project 06)..jpg" alt="pic8">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Thumbnail Design</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Social Media Graphics</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Thumbnail Design</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Social Media Graphics</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">K-Drama Thumbnail</h3>
-                <p class="text-gray-400 mb-6">A dramatic thumbnail design for a K-drama ranking video, focusing on bold typography and strong visual hierarchy.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">K-Drama Thumbnail</h3>
+                <p class="sub-text-color mb-6">A dramatic thumbnail design for a K-drama ranking video, focusing on bold typography and strong visual hierarchy.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="12"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -878,20 +884,20 @@
             </div>
             <!-- Project 13 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha_Azizi_(project 07).jpg" alt="pic9">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Digital Painting</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Character Illustration</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Digital Painting</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Character Illustration</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Digital Portrait</h3>
-                <p class="text-gray-400 mb-6">Portrait Study is a digital painting practice project focused on improving shading, color blending, and facial rendering through a redraw study.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Digital Portrait</h3>
+                <p class="sub-text-color mb-6">Portrait Study is a digital painting practice project focused on improving shading, color blending, and facial rendering through a redraw study.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="13"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -902,8 +908,8 @@
             </div>
             <!---Project 14 - video project -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
-              <div class="aspect-video bg-black relative overflow-hidden video-project-container">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
+              <div class="aspect-video sub-bg-color relative overflow-hidden video-project-container">
                 <video class="w-full h-full object-cover project-video" loop muted playsinline data-video-id="video-1"
                   onloadedmetadata="this.muted = true;">
                   <source src="./assets/motion/vid last.mp4" type="video/mp4" loading="lazy"> Your
@@ -912,7 +918,7 @@
                 <div
                   class="video-controls absolute bottom-4 left-4 right-4 flex items-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                   <button
-                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-play-pause w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="play-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -923,7 +929,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></button> <button
-                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-pink-400 hover:bg-pink-500/20 hover:border-pink-500 transition-all">
+                    class="video-mute w-10 h-10 border rounded-full flex items-center justify-center text-color-400 hover:bg-color hover:border-color transition-all">
                     <svg class="mute-icon w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
@@ -936,18 +942,17 @@
                     </svg></button>
                 </div>
                 <div
-                  class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-40 pointer-events-none">
+                  class="absolute inset-0 opacity-40 pointer-events-none">
                 </div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Video</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Motion</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Video Editing</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Motion</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;"></h3>
-                <p class="text-gray-400 mb-6">Cinematic brand video showcasing product innovation and creative
-                  storytelling.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Minimal Motion Intro</h3>
+                <p class="sub-text-color mb-6">A clean and modern motion graphic intro created to demonstrate smooth transitions and minimal visual design. This project was developed as a personal portfolio piece to highlight animation and editing skills.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="14"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -958,20 +963,20 @@
             </div>
             <!-- Project 15 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha_Azizi_(Final Project).jpg" alt="pic11">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Illustration</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Digital Art</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Illustration</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Digital Art</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Creative Focus</h3>
-                <p class="text-gray-400 mb-6">A digital illustration capturing focus and creativity in a personal workspace, emphasizing mood, lighting, and visual storytelling.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Creative Focus</h3>
+                <p class="sub-text-color mb-6">A digital illustration capturing focus and creativity in a personal workspace, emphasizing mood, lighting, and visual storytelling.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="15"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -982,20 +987,20 @@
             </div>
             <!-- Project 16 -->
             <div
-              class="card-hover group bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl overflow-hidden border border-pink-500/10">
+              class="card-hover group card-bg-gradient rounded-3xl overflow-hidden border border-color">
               <div
-                class="aspect-video bg-gradient-to-br from-pink-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
+                class="aspect-video flex items-center justify-center relative overflow-hidden">
                 <img src="./assets/Illustration/Maliha-Azizi-(project-15)-01.jpg" alt="pic11">
                 <div class="absolute inset-0"></div>
               </div>
               <div class="p-8">
                 <div class="flex gap-2 mb-4"><span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Vector Illustration</span> <span
-                    class="px-3 py-1 bg-pink-500/10 text-pink-400 text-xs rounded-full">Digital Art</span>
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Vector Illustration</span> <span
+                    class="px-3 py-1 tag-bg-color text-color-400 text-xs rounded-full">Digital Art</span>
                 </div>
-                <h3 class="text-2xl font-bold text-white mb-3" style="font-family: 'Syne', sans-serif;">Midnight Echo</h3>
-                <p class="text-gray-400 mb-6">Midnight Echo is a vector illustration exploring silhouette design, depth layering, and atmospheric composition. The artwork uses clean vector shapes, strong contrast, and minimal color palettes to create a bold and emotionally engaging visual.</p><button
-                  class="view-project-from-all-btn flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group/btn"
+                <h3 class="text-2xl font-bold project-text-color mb-3" style="font-family: 'Syne', sans-serif;">Midnight Echo</h3>
+                <p class="sub-text-color mb-6">Midnight Echo is a vector illustration exploring silhouette design, depth layering, and atmospheric composition. The artwork uses clean vector shapes, strong contrast, and minimal color palettes to create a bold and emotionally engaging visual.</p><button
+                  class="view-project-from-all-btn flex items-center gap-2 text-color-400 hover transition-colors group/btn"
                   data-project="16"> View Project
                   <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                     stroke="currentColor" viewbox="0 0 24 24">
@@ -1011,16 +1016,16 @@
   </div>
   <!-- Project Detail Page -->
   <div id="project-page" class="fixed inset-0 z-50 hidden">
-    <div class="h-full w-full overflow-auto" style="background: #0a0a0a;">
+    <div class="h-full w-full overflow-auto" style="background: #fefefe;">
       <!-- Project Navigation -->
-      <nav class="sticky top-0 z-50 backdrop-blur-xl bg-black/80 border-b border-pink-500/10">
+      <nav class="sticky top-0 z-50 backdrop-blur-xl sub-bg-color/80 border-b border-color">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"><button id="back-to-portfolio"
-            class="flex items-center gap-2 text-gray-400 hover:text-pink-400 transition-colors group">
+            class="flex items-center gap-2 sub-text-color hover:text-color-400 transition-colors group">
             <svg class="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor"
               viewbox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg><span class="text-sm uppercase tracking-wider">Back to Portfolio</span> </button>
-          <div class="text-pink-400 text-sm uppercase tracking-[0.3em]" id="project-category">Project</div>
+          <div class="text-color-400 text-sm uppercase tracking-[0.3em]" id="project-category">Project</div>
         </div>
       </nav><!-- Project Hero and Visual Side by Side -->
       <section class="relative pt-20 pb-32 grid-pattern">
@@ -1031,9 +1036,9 @@
           <div class="grid lg:grid-cols-2 gap-12"><!-- Left: Project Hero Content -->
             <div class="items-center">
               <div id="project-tags" class="flex flex-wrap gap-2 mb-8"><span
-                  class="px-4 py-2 bg-pink-500/10 text-pink-400 text-sm rounded-full">Tag</span>
+                  class="px-4 py-2 tag-bg-color text-sm rounded-full">Tag</span>
               </div>
-              <h1 id="project-title" class="text-4xl md:text-6xl font-bold text-white mb-4"
+              <h1 id="project-title" class="text-4xl md:text-6xl font-bold text-color mb-4"
                 style="font-family: 'Syne', sans-serif;">Project Title</h1>
               <p id="project-subtitle" class="description leading-relaxed">Project description goes
                 here.</p>
@@ -1095,55 +1100,55 @@
       <section class="py-16">
         <div class="max-w-7xl mx-auto px-6">
           <div class="grid md:grid-cols-3 gap-8 mb-20">
-            <div class="bg-gradient-to-br from-gray-900 to-gray-950 border border-pink-500/10 rounded-2xl p-8">
+            <div class="tech-bg rounded-2xl p-8">
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-12 h-12 bg-pink-500/10 rounded-xl flex items-center justify-center">
-                  <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                <div class="w-12 h-12 bg-color rounded-xl flex items-center justify-center">
+                  <svg class="w-6 h-6 icon-color" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
                 </div>
                 <div>
-                  <div class="text-gray-500 text-sm uppercase tracking-wider">
+                  <div class="text-secondary text-sm uppercase tracking-wider">
                     Timeline
                   </div>
-                  <div id="project-timeline" class="text-white text-xl font-semibold">
+                  <div id="project-timeline" class="tech-text-color text-xl font-semibold">
                     3 months
                   </div>
                 </div>
               </div>
             </div>
-            <div class="bg-gradient-to-br from-gray-900 to-gray-950 border border-pink-500/10 rounded-2xl p-8">
+            <div class="tech-bg rounded-2xl p-8">
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-12 h-12 bg-pink-500/10 rounded-xl flex items-center justify-center">
-                  <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                <div class="w-12 h-12 bg-color rounded-xl flex items-center justify-center">
+                  <svg class="w-6 h-6 icon-color" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
                 <div>
-                  <div class="text-gray-500 text-sm uppercase tracking-wider">
+                  <div class="text-secondary text-sm uppercase tracking-wider">
                     My Role
                   </div>
-                  <div id="project-role" class="text-white text-xl font-semibold">
+                  <div id="project-role" class="tech-text-color text-xl font-semibold">
                     Lead Developer
                   </div>
                 </div>
               </div>
             </div>
-            <div class="bg-gradient-to-br from-gray-900 to-gray-950 border border-pink-500/10 rounded-2xl p-8">
+            <div class="tech-bg rounded-2xl p-8">
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-12 h-12 bg-pink-500/10 rounded-xl flex items-center justify-center">
-                  <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                <div class="w-12 h-12 bg-color rounded-xl flex items-center justify-center">
+                  <svg class="w-6 h-6 icon-color" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
                 <div>
-                  <div class="text-gray-500 text-sm uppercase tracking-wider">
+                  <div class="text-secondary text-sm uppercase tracking-wider">
                     Status
                   </div>
-                  <div class="text-white text-xl font-semibold">
+                  <div class="tech-text-color text-xl font-semibold">
                     Completed
                   </div>
                 </div>
@@ -1153,26 +1158,26 @@
           <div class="grid lg:grid-cols-2 gap-16"><!-- Left Column -->
             <div class="space-y-16"><!-- Overview -->
               <div>
-                <h2 class="text-3xl font-bold text-white mb-6" style="font-family: 'Syne', sans-serif;">Project <span
-                    class="gradient-text">Overview</span></h2>
-                <p id="project-description" class="text-gray-400 text-lg leading-relaxed">Detailed project description
+                <h2 class="text-3xl font-bold text-color mb-6" style="font-family: 'Syne', sans-serif;">Project <span
+                    class="gradient-text2">Overview</span></h2>
+                <p id="project-description" class="sub-text-color text-lg leading-relaxed">Detailed project description
                   goes here.</p>
               </div>
             </div><!-- Right Column -->
             <div class="space-y-16"><!-- Technologies -->
               <div>
-                <h2 class="text-3xl font-bold text-white mb-8" style="font-family: 'Syne', sans-serif;">Technologies
-                  <span class="gradient-text">Used</span>
+                <h2 class="text-3xl font-bold text-color mb-8" style="font-family: 'Syne', sans-serif;">Technologies
+                  <span class="gradient-text2">Used</span>
                 </h2>
                 <div id="project-tech" class="grid grid-cols-2 gap-4">
                   <div
-                    class="bg-gradient-to-br from-gray-900 to-gray-950 border border-pink-500/10 rounded-xl p-6 flex items-center gap-4">
-                    <div class="w-12 h-12 bg-pink-500/10 rounded-lg flex items-center justify-center">
-                      <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                    class="tech-bg rounded-xl p-6 flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg flex items-center justify-center">
+                      <svg class="w-6 h-6 icon-color" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                           d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                       </svg>
-                    </div><span class="text-white font-medium"></span>
+                    </div><span class="tech-text-color font-medium"></span>
                   </div>
                 </div>
               </div>
@@ -1187,11 +1192,6 @@
           hero_tagline: 'Visual storytelling through illustration, branding, and motion design.',
           about_text: "I’m a Graphic Designer and Motion & Animation Designer currently studying at CodeToInspire. My work focuses on illustration branding, poster design, and visual storytelling. I enjoy turning ideas into meaningful visuals and exploring how motion and animation can bring designs to life. I work mainly with Adobe Photoshop and Adobe Illustrator, and I’m currently learning After Effects to expand my motion design skills. I’m eager to be part of creative projects, collaborate with teams, and grow as a professional designer.",
           contact_email: 'malihaazizi17@gmail.com',
-          background_color: '#0a0a0a',
-          surface_color: '#111111',
-          text_color: '#ffffff',
-          primary_action_color: '#ec4899',
-          secondary_action_color: '#9ca3af',
           font_family: 'Space Grotesk',
           font_size: 16
         };
@@ -1211,7 +1211,7 @@
             title: 'Icon Motion',
             tags: ['Motion Design', 'Icon Animation', 'Digital Motion'],
             description: 'Icon Motion is a motion design project focused on animating icons to bring interface elements to life. Each animation emphasizes smooth transitions, clear timing, and visual feedback to create engaging micro-interactions. The project explores principles of motion such as easing, anticipation, and follow-through, ensuring that each icon movement feels natural and intuitive. Subtle scale, rotation, and position changes were applied to enhance visual rhythm and clarity while maintaining a clean and minimal aesthetic. This project demonstrates skills in motion design, After Effects animation, and UI-focused visual storytelling, highlighting my ability to transform static design elements into polished, functional animations.',
-            overView: '',
+            overView: 'A short motion graphics piece showcasing clean, modern animated icons with smooth transitions, highlighting visual rhythm and clarity in a compact, engaging format.',
             timeline: '6 Days',
             role: 'Lead Designer & Composer',
             tech: ['Adobe Illustrator', 'Adobe After Effects',],
@@ -1236,7 +1236,7 @@
             timeline: '10 Days',
             role: 'Lead Designer',
             overView: 'This illustration explores the quiet power of reading through a soft and emotionally driven visual narrative. By blending nature, storytelling, and symbolic elements, the project reflects the timeless relationship between books and imagination.',
-            tech: ['Adobe Photoshop'],
+            tech: ['Adobe Photoshop', 'Pinterest'],
             mediaType: "image",
             mediaSrc: "./assets/Illustration/Maliha_Azizi_(project 06).jpg",
           },
@@ -1462,19 +1462,19 @@
 
           // Update tags
           const tagsHtml = project.tags.map(tag =>
-            `<span class="px-4 py-2 bg-pink-500/10 text-pink-400 text-sm rounded-full">${tag}</span>`
+            `<span class="px-4 py-2 tag-bg-color text-sm rounded-full">${tag}</span>`
           ).join('');
           document.getElementById('project-tags').innerHTML = tagsHtml;
 
           // Update tech with enhanced cards
           const techHtml = project.tech.map(tech =>
-            `<div class="bg-gradient-to-br from-gray-900 to-gray-950 border border-pink-500/10 rounded-xl p-6 flex items-center gap-4">
-          <div class="w-12 h-12 bg-pink-500/10 rounded-lg flex items-center justify-center">
-            <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            `<div class="tech-bg border border-color rounded-xl p-6 flex items-center gap-4">
+          <div class="w-12 h-12 bg-color rounded-lg flex items-center justify-center">
+            <svg class="w-6 h-6 icon-color" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
             </svg>
           </div>
-          <span class="text-white font-medium">${tech}</span>
+          <span class="tech-text-color font-medium">${tech}</span>
         </div>`
           ).join('');
           document.getElementById('project-tech').innerHTML = techHtml;
@@ -1504,16 +1504,7 @@
           // Update contact email
           const emailEl = document.getElementById('contact-email');
           const email = config.contact_email || defaultConfig.contact_email;
-          emailEl.innerHTML = `Or email me directly at <a href="mailto:${email}" class="text-pink-400 hover:text-pink-300 transition-colors">${email}</a>`;
-
-          // Apply colors
-          const bgColor = config.background_color || defaultConfig.background_color;
-          const surfaceColor = config.surface_color || defaultConfig.surface_color;
-          const textColor = config.text_color || defaultConfig.text_color;
-          const primaryColor = config.primary_action_color || defaultConfig.primary_action_color;
-          const secondaryColor = config.secondary_action_color || defaultConfig.secondary_action_color;
-
-          document.getElementById('app-wrapper').style.background = bgColor;
+          emailEl.innerHTML = `Or email me directly at <a href="mailto:${email}" class="text-color-400 hover transition-colors">${email}</a>`;
 
           // Apply font
           const fontFamily = config.font_family || defaultConfig.font_family;
@@ -1527,43 +1518,6 @@
 
         function mapToCapabilities(config) {
           return {
-            recolorables: [
-              {
-                get: () => config.background_color || defaultConfig.background_color,
-                set: (value) => {
-                  config.background_color = value;
-                  window.elementSdk.setConfig({ background_color: value });
-                }
-              },
-              {
-                get: () => config.surface_color || defaultConfig.surface_color,
-                set: (value) => {
-                  config.surface_color = value;
-                  window.elementSdk.setConfig({ surface_color: value });
-                }
-              },
-              {
-                get: () => config.text_color || defaultConfig.text_color,
-                set: (value) => {
-                  config.text_color = value;
-                  window.elementSdk.setConfig({ text_color: value });
-                }
-              },
-              {
-                get: () => config.primary_action_color || defaultConfig.primary_action_color,
-                set: (value) => {
-                  config.primary_action_color = value;
-                  window.elementSdk.setConfig({ primary_action_color: value });
-                }
-              },
-              {
-                get: () => config.secondary_action_color || defaultConfig.secondary_action_color,
-                set: (value) => {
-                  config.secondary_action_color = value;
-                  window.elementSdk.setConfig({ secondary_action_color: value });
-                }
-              }
-            ],
             borderables: [],
             fontEditable: {
               get: () => config.font_family || defaultConfig.font_family,
