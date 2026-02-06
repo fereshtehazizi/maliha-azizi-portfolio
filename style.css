@@ -4,18 +4,22 @@ body {
     
     * {
       scrollbar-width: thin;
-      scrollbar-color: #ec4899 #0a0a0a;
+      scrollbar-color: #0a0a0a;
     }
     
     .gradient-text {
-      background: linear-gradient(135deg, #ec4899 0%, #f472b6 50%, #fb7185 100%);
+      background: #cbc0b2;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-    
-    .glow-pink {
-      box-shadow: 0 0 40px rgba(236, 72, 153, 0.3), 0 0 80px rgba(236, 72, 153, 0.1);
+
+    .text-secondary{
+      color: #cbc0b2;
+    }
+
+    .scroll-icon-color{
+      background: #cbc0b2;
     }
     
     .card-hover {
@@ -24,7 +28,6 @@ body {
     
     .card-hover:hover {
       transform: translateY(-8px) scale(1.02);
-      box-shadow: 0 20px 60px rgba(236, 72, 153, 0.2);
     }
     
     .nav-link {
@@ -39,7 +42,7 @@ body {
       left: 0;
       width: 0;
       height: 2px;
-      background: linear-gradient(90deg, #ec4899, #f472b6);
+      background: linear-gradient(90deg, #bac7ce, #7c1010);
       transition: width 0.3s ease;
     }
     
@@ -47,10 +50,11 @@ body {
       width: 100%;
     }
 
+
     .description{
+      font-family: 'Space Grotesk', sans-serif;;
       font-size: 18px;
-      font-weight: 300;
-      color: white;
+      font-weight: 400;
       padding-top: 10px;
     }
     
@@ -92,23 +96,56 @@ body {
     }
     
     .magnetic-btn {
-      transition: transform 0.2s ease;
+      transition: transform 0.3s ease-in;
+    }
+
+
+    .bg-gradient{
+      background-color: #7e6961;
     }
     
-    .grid-pattern {
-      background-image: 
-        linear-gradient(rgba(236, 72, 153, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(236, 72, 153, 0.03) 1px, transparent 1px);
-      background-size: 50px 50px;
+    .bg-color{
+      background-color: #8b0202;
     }
-    
-    .project-image-placeholder {
-      background: linear-gradient(135deg, 
-        rgba(236, 72, 153, 0.1) 0%, 
-        rgba(244, 114, 182, 0.05) 50%, 
-        rgba(251, 113, 133, 0.1) 100%);
+
+    .card-bg-gradient{
+      background: transparent;
+      backdrop-filter: blur(100px);
     }
-    
+
+    .icon-color, .project-text-color, .text-color-400{
+      color: gainsboro;
+    }
+
+    .tag-bg-color{
+      background: #304145;
+      color: #fefefe;
+    }
+
+    .tech-bg{
+      background: #363234;
+      
+    } 
+    .tech-text-color{
+      color: #fefefe;
+    }
+
+    .sub-text-color, .text-color{
+      color: #363234;
+    }
+
+    .icon-color, .btn-text-color, .tag-bg-color{
+      color:#fefefe;
+    }
+
+    .border-color{
+      border-color: #cbc0b2;
+    }
+
+    .gradient-text2, #project-title{
+      color: #7c1010;
+    }
+
     .feature-item {
       opacity: 0;
       transform: translateX(-20px);
