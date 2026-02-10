@@ -11,6 +11,7 @@
   <script src="/_sdk/element_sdk.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap"
     rel="stylesheet">
@@ -92,7 +93,7 @@
           </div>
           <div class="relative">
             <div class="aspect-square rounded-3xl flex items-center justify-center">
-              <img style="width: 380px;" class="rounded-xl" src="./assets/prof/7flat.jpg" alt="profile">
+              <img style="width: 380px;" class="rounded-xl"  src="./assets/logo, pro/pro3.jpg" alt="profile">
             </div>
           </div>
         </div>
@@ -1160,11 +1161,7 @@
                 <div id="project-tech" class="grid grid-cols-2 gap-4">
                   <div class="tech-bg rounded-xl p-6 flex items-center gap-4">
                     <div class="w-12 h-12 rounded-lg flex items-center justify-center">
-                      <svg class="w-6 h-6 icon-color" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                      </svg>
-                    </div><span class="tech-text-color font-medium"></span>
+                      <i class="fa-solid fa-paintbrush" style="font-size: larger; color: white;"></i>
                   </div>
                 </div>
               </div>
@@ -1472,9 +1469,7 @@
           const techHtml = project.tech.map(tech =>
             `<div class="tech-bg border border-color rounded-xl p-6 flex items-center gap-4">
           <div class="w-12 h-12 bg-color rounded-lg flex items-center justify-center">
-            <svg class="w-6 h-6 icon-color" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-            </svg>
+           <i class="fa-solid fa-paintbrush" style="font-size: larger; color: white;"></i>
           </div>
           <span class="tech-text-color font-medium">${tech}</span>
         </div>`
